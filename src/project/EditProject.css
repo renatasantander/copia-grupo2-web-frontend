@@ -1,0 +1,90 @@
+/* Estilos para el formulario */
+
+.contenedor-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    margin-bottom: 0px;
+    padding: 20px;
+}
+
+.titulo-proyecto {
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 35px;
+    font-family: 'Inter';
+    font-weight: 800;
+    word-wrap: break-word;
+}
+
+.form-container {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.edit-form {
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.edit-form label {
+    margin: 10px;
+    font-family: 'Inter';
+    font-size: 20px;
+}
+
+.edit-form input[type='text'] {
+    font-family: 'Inter';
+    font-size: 17px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-left: 10px;
+    width: 50%;
+}
+.edit-form input[type='checkbox'] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 10%;
+}
+.edit-form button {
+    font-family: 'Inter';
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    width: 90%;
+}
+
+/* Estilos para los botones */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin: 20px auto;
+}
+
+.button-container button {
+    font-family: 'Inter';
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.delete-button {
+    background-color: #ec4a4ae8;
+    color: #fff;
+}
+

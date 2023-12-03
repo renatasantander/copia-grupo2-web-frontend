@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+  }
+
+  :root {
+    max-width: 1780px;
+    margin: 0 auto;
+    /* display: flex; */
+    /* justify-content: flex-start;
+    align-items: flex-start; */
+    padding: 0;
+    }
+  
+  body {
+    margin: 0;
+  }
+
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #74839B;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 1rem 1rem;
+    font-family: 'Inter';
+
+  }
+
+  ul {
+    list-style-type: none; /* Elimina los puntos de lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Para alinear horizontalmente los elementos de la lista */
+    justify-content: space-around; /* Distribuir uniformemente los elementos en la barra */
+    gap: 1rem;
+}
+
+li {
+    margin: 0;
+}
+
+a {
+    text-decoration: none; /* Elimina la decoración de texto subrayado */
+    color: inherit; /* Color del texto de los enlaces */
+    font-weight: bold; /* Texto en negrita */
+    padding: 1.2rem 1.2rem; /* Espaciado interno izquierda y derecha de cada enlace */
+}
+
+a.active {
+    background-color: #5a6589; /* Color de fondo cuando el enlace está activo */
+    border-radius: 5px; /* Bordes redondeados para el enlace activo */
+}

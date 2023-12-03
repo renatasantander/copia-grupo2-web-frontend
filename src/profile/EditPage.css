@@ -1,0 +1,305 @@
+.imagen-fondo {
+  background-size: cover;        
+  background-repeat: no-repeat;  
+  background-position: center;  
+  background-attachment: fixed; 
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.ContenedorLogo {
+position: fixed;
+top:  100px;
+left: 240px;
+}
+
+.Capra021 {
+width: 160px;
+height: 110px;
+right: 0px; 
+top: 0px;
+position: absolute;
+}
+
+.ContraseA,
+.Usuario,
+.Registrame,
+.Mail {
+position: absolute;
+font-family: 'Inter';
+font-weight: 400;
+word-wrap: break-word;
+text-align: center;
+width: 519px;
+height: 28px;
+}
+
+.Registrame {
+left: 380px;
+top: 470px;
+font-size: 40px;
+color: rgba(0, 0, 0, 0.88);
+}
+
+
+.ContraseA {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 35px;
+  color: rgba(0, 0, 0, 0.88);
+  /* Añade cualquier otra propiedad que necesites */
+}
+
+
+.fondo-blanco {
+width: 1335px;
+height: 582px;
+left: 20px;
+top: 80px;
+position: absolute;
+background: #FDF5F5;
+}
+
+.Registrarse {
+  position: absolute;
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 35px;
+  font-family: 'Inter';
+  font-weight: 800;
+  word-wrap: break-word;
+  width: 200px;
+  height: 10px;
+  left: 50%; /* Posiciona el elemento en el centro horizontal */
+  transform: translateX(-50%); /* Ajusta la posición horizontal al centro */
+  top: 130px; /* Ajusta la posición vertical según sea necesario */
+}
+
+
+.Frame3,
+.Frame2,
+.Frame1,
+.Frame4 {
+position: absolute;
+display: inline-flex;
+flex-direction: column;
+}
+
+
+.Rectangle4,
+.Rectangle2,
+.Rectangle6 {
+  left: 50%; /* Posiciona los elementos en el centro horizontal */
+  width: 868px;
+  height: 90px;
+  border-radius: 20px;
+  background: #D9D9D9;
+  position: absolute;
+  transform: translateX(-50%); /* Ajusta la posición horizontal al centro */
+}
+
+.Frame4 {
+  left: 50%; /* Posiciona el elemento en el centro horizontal */
+  top: 600px;
+  width: 888px;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: absolute;
+  transform: translateX(-50%);
+}
+.Frame3 {
+  left: 50%; /* Posiciona el elemento en el centro horizontal */
+  top: 200px;
+  width: 888px;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: absolute;
+  transform: translateX(-50%); /* Ajusta la posición horizontal al centro */
+}
+
+.Frame2,
+.Frame1 {
+  left: 50%; /* Posiciona los elementos en el centro horizontal */
+  padding: 10px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+  transform: translateX(-50%); /* Ajusta la posición horizontal al centro */
+}
+
+
+.Frame2 {
+top: 450px;
+}
+
+.Frame1 {
+  top: 330px;
+  left: 50%; /* Posiciona el elemento en el centro horizontal */
+  height: 107px;
+  width: 876px;
+  position: absolute;
+  transform: translateX(-50%); /* Ajusta la posición horizontal al centro */
+}
+
+
+.Rectangle4 {
+background: #74839B;
+}
+
+.Usuario {
+  left: 50%; /* Posiciona el elemento en el centro horizontal */
+  top: 225px;
+  font-size: 35px;
+  color: rgba(0, 0, 0, 0.88);
+  position: absolute;
+  transform: translateX(-50%); /* Ajusta la posición horizontal al centro */
+}
+
+.Mail {
+  left: 50%; /* Posiciona el elemento en el centro horizontal */
+  top: 480px;
+  font-size: 35px;
+  color: rgba(0, 0, 0, 0.88);
+  position: absolute;
+  transform: translateX(-50%); /* Ajusta la posición horizontal al centro */
+}
+
+.Rectangle5 {
+  width: 150px;
+  height: 150px;
+  left: 50%; /* Posiciona el elemento en el centro horizontal */
+  top: 10px;
+  position: absolute;
+  background: #FDF5F5;
+  transform: translateX(-50%); /* Ajusta la posición horizontal al centro */
+}
+
+.Rectangle6 {
+  background: black;
+}
+
+.Boton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #5A6589;
+  color: white; /* Cambiado a blanco para que sea visible sobre el fondo oscuro */
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  font-size: 35px;
+  transition: background-color 0.3s ease;
+  position: absolute;
+  left: 50%; /* Posiciona el botón en el centro horizontal */
+  top: 580px;
+  width: 868px;
+  height: 60px; /* Ajusta la altura para hacerlo más delgado */
+  border-radius: 20px;
+  font-family: 'Inter';
+  transform: translateX(-50%); /* Ajusta la posición horizontal al centro */
+  z-index: 1000;
+}
+
+
+
+.Boton:hover {
+  background-color: #2e394a; /* Cambia el color de fondo cuando se pasa el ratón por encima */
+  color: white
+}
+
+.Boton:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.Boton:active {
+  /*background-color: #4A5579; /* Cambia el color de fondo al hacer clic */
+  background-color:#2e394a
+}
+
+.clicked {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: black; /* Cambia el color del texto para que sea visible */
+}
+
+.clicked input {
+  background-color: transparent; /* Fondo transparente */
+  border: none; /* Sin borde */
+  outline: none; /* Sin resaltado de enfoque */
+  color: black; /* Color de texto negro */
+  font-size: 20px; /* Tamaño de fuente más grande */
+  text-align: center; /* Texto centrado */
+}
+
+.clicked .Frame1,
+.clicked .Frame2,
+.clicked .Frame3 {
+  background-color: #cdd8dd; /* Cambia el fondo cuando se hace clic */
+}
+
+
+.Rectangle3::placeholder {
+  text-align: center; /* Centra el texto del placeholder */
+  font-size: 35px; /* Ajusta el tamaño del texto del placeholder */
+  font-family: 'Inter';
+  font-weight: 400;
+  word-wrap: break-word;
+  width: 519px;
+  height: 120px;
+  color: rgba(0, 0, 0, 0.88);
+  position: absolute; /* Agrega posición absoluta */
+  background: #D9D9D9;
+  border-radius: 20px;
+  transform: translateX(30%); 
+}
+
+.Rectangle3 input {
+  font-family: 'Inter', sans-serif; /* Fuente Inter o la que desees */
+  font-size: 20px; /* Tamaño de fuente 20px */
+  text-align: center; /* Texto centrado */
+  color: black; /* Color de texto negro */
+  border: none; /* Sin borde */
+  background: transparent; /* Fondo transparente */
+  outline: none; /* Sin resaltado de enfoque */
+  /* Otros estilos para el input si es necesario */
+}
+
+.Rectangle2::placeholder {
+  text-align: center; /* Centra el texto del placeholder */
+  font-size: 35px; /* Ajusta el tamaño del texto del placeholder */
+  font-family: 'Inter';
+  font-weight: 400;
+  word-wrap: break-word;
+  width: 519px;
+  height: 120px;
+  color: rgba(0, 0, 0, 0.88);
+  position: absolute; /* Agrega posición absoluta */
+  background: #D9D9D9;
+  border-radius: 20px;
+  transform: translateX(30%); 
+}
+
+.Rectangle2 input {
+  font-family: 'Inter', sans-serif; /* Fuente Inter o la que desees */
+  font-size: 20px; /* Tamaño de fuente 20px */
+  text-align: center; /* Texto centrado */
+  color: black; /* Color de texto negro */
+  border: none; /* Sin borde */
+  background: transparent; /* Fondo transparente */
+  outline: none; /* Sin resaltado de enfoque */
+  /* Otros estilos para el input si es necesario */
+}
+
